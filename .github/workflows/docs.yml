@@ -12,10 +12,10 @@ jobs:
     name: Validate documentation
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: Check Markdown formatting
-        uses: DavidAnson/markdownlint-cli2-action@v19
+        uses: DavidAnson/markdownlint-cli2-action@v24
         with:
           globs: "**/*.md"
 
@@ -26,7 +26,7 @@ jobs:
           fail: true
 
       - name: Check spelling
-        uses: streetsidesoftware/cspell-action@v8
+        uses: streetsidesoftware/cspell-action@v9
         with:
           files: "**/*.md"
           config: "cspell.json"
