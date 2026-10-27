@@ -12,9 +12,9 @@ From initial discovery and product planning to design, development, launch, and 
 
 <img src="assets/cover.png" alt="XOS — Independent Software Engineering Studio" width="100%" />
 
-### Build software that makes businesses simpler, smarter, and more scalable.
+## Build software that makes businesses simpler, smarter, and more scalable
 
-**Independent Software Engineering Studio**
+<strong>Independent Software Engineering Studio</strong>
 
 [Our Services](#what-we-do) · [Our Approach](#our-approach) · [AI-Powered Development](#ai-powered-development)
 
@@ -64,6 +64,7 @@ Turn business problems into reliable, scalable software products through thought
 Build modern web applications that help businesses digitize operations, serve customers, and improve productivity.
 
 Examples include:
+
 - Business management platforms
 - Admin dashboards and internal tools
 - SaaS products
@@ -75,6 +76,7 @@ Examples include:
 Develop mobile experiences that connect businesses with their customers and teams.
 
 Examples include:
+
 - iOS and Android applications
 - Cross-platform mobile applications
 - Customer-facing applications
@@ -86,6 +88,7 @@ Examples include:
 Design and implement dependable backend systems that support business applications.
 
 Examples include:
+
 - REST and GraphQL APIs
 - Authentication and authorization
 - Database design and data management
@@ -98,6 +101,7 @@ Examples include:
 Help businesses move from an initial idea to a well-defined, implementable software product.
 
 Examples include:
+
 - Requirements discovery and documentation
 - MVP scoping and prioritization
 - System architecture and technical planning
@@ -140,7 +144,7 @@ XOS selects technologies based on the problem being solved, the project's constr
 Our engineering experience and preferred tools include:
 
 | Area | Technologies |
-|---|---|
+| --- | --- |
 | Web frontend | React, Next.js, TypeScript |
 | Mobile | Flutter, Dart |
 | Backend | Node.js, Express, TypeScript, Python, Java, Spring Boot |

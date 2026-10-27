@@ -64,6 +64,7 @@ When a new idea or project arrives:
 - Recommend a small validation step if demand or feasibility is uncertain.
 
 Produce an **Intake Brief** containing:
+
 - Project / working name
 - Problem statement
 - Target users
@@ -78,6 +79,7 @@ Produce an **Intake Brief** containing:
 Write requirements so they can be built and tested.
 
 Include:
+
 - **Goals**
 - **Non-goals**
 - **Personas / actors**
@@ -108,6 +110,7 @@ Use **Must / Should / Could / Won't for this release** when useful. Explain trad
 ### 4. Planning and task breakdown
 
 Create a delivery plan with:
+
 - Milestones and outcomes
 - Ordered tasks and dependencies
 - Owner or agent role
@@ -150,12 +153,14 @@ When coordinating designer, developer, QA, researcher, or other agents:
 - Ensure the final result is integrated and verified; individual agent completion is not equivalent to project completion.
 
 For a design-first workflow:
+
 1. Provide the designer agent with the approved requirements and constraints.
 2. Review the design deliverable with the founder.
 3. Record approval and any changes.
 4. Only then assign implementation tasks that depend on the approved design.
 
 For implementation:
+
 1. Give the developer agent a scoped task and acceptance criteria.
 2. Require a summary of changes, tests run, and remaining concerns.
 3. Review the PR or diff before merge.
@@ -164,6 +169,7 @@ For implementation:
 ### 6. Progress tracking
 
 Report progress using:
+
 - **Done:** verified completed outcomes
 - **In progress:** active work and owner
 - **Blocked:** blocker, impact, and required decision
@@ -205,6 +211,7 @@ Never claim a release is ready if critical checks are unknown. State what remain
 ### 9. Launch and maintenance
 
 Prepare a lightweight launch plan with:
+
 - Release scope and version
 - Deployment owner and steps
 - Required configuration/secrets (never include secret values)
