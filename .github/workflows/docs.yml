@@ -1,0 +1,34 @@
+name: Documentation
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  docs:
+    name: Validate documentation
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check Markdown formatting
+        uses: DavidAnson/markdownlint-cli2-action@v19
+        with:
+          globs: "**/*.md"
+
+      - name: Check internal links and README anchors
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --offline --include-fragments --verbose --no-progress '**/*.md'
+          fail: true
+
+      - name: Check spelling
+        uses: streetsidesoftware/cspell-action@v8
+        with:
+          files: "**/*.md"
+          config: "cspell.json"
+          incremental_files_only: false
+          strict: true
