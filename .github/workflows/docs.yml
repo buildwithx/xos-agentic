@@ -30,5 +30,6 @@ jobs:
         with:
           files: "**/*.md"
           config: "cspell.json"
+          check_dot_files: true
           incremental_files_only: false
           strict: true
